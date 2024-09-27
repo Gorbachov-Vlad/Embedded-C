@@ -1,0 +1,63 @@
+Перший термінал:
+
+D:\CEmbedded reposit>git clone https://github.com/denys-ko/softwareDevelopmentTechLog.git
+Cloning into 'softwareDevelopmentTechLog'...
+remote: Enumerating objects: 385, done.
+remote: Counting objects: 100% (102/102), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 385 (delta 86), reused 85 (delta 82), pack-reused 283 (from 1)
+Receiving objects: 100% (385/385), 53.30 KiB | 1.61 MiB/s, done.
+Resolving deltas: 100% (191/191), done.
+
+Другий термінал:
+
+D:\CEmbedded reposit\softwareDevelopmentTechLog>git add io23.txt
+
+D:\CEmbedded reposit\softwareDevelopmentTechLog>git commit -m "add file for io23 group"
+[main a9c3584] add file for io23 group
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+D:\CEmbedded reposit\softwareDevelopmentTechLog>git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/denys-ko/softwareDevelopmentTechLog.git
+   293541d..a9c3584  main -> main
+
+D:\CEmbedded reposit\softwareDevelopmentTechLog>git log
+commit a9c35849cc757dcb45ac2bc231214cd5dbd7c688 (HEAD -> main, origin/main, origin/HEAD)
+Author: Vlad <vlad5077@ukr.net>
+Date:   Fri Sep 27 19:08:03 2024 +0300
+
+    add file for io23 group
+
+commit 293541dedf5ddb104aaf117c4f985ca7f0ca8f05
+Author: Vlad <vlad5077@ukr.net>
+Date:   Thu Sep 19 09:12:03 2024 +0300
+
+    add changes for io23 group
+
+commit 89c7d1f313326d64e1bc8ad426c1054c9ba1e133
+Author: Kateryna <demianenko.kateruna@lll.kpi.ua>
+Date:   Tue Sep 17 15:52:30 2024 +0300
+
+    Added file for io25 and wrote my info
+
+commit 2f42d7ca05dd292d674df48f045019234ef31a86
+Merge: 381f4a0 dec7e8f
+Author: denys-ko <80855139+denys-ko@users.noreply.github.com>
+Date:   Tue Sep 17 11:33:39 2024 +0300
+
+    Merge pull request #13 from erotourtes/im-21
+
+    feat(im21): Max Siryk
+
+commit 381f4a0a5f2cc253ac0c85018740b79368ed1ce8
+Author: hasslesstech <hasslesstech@tutanota.com>
+
+D:\CEmbedded reposit\softwareDevelopmentTechLog>
+
